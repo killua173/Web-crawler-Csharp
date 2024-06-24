@@ -1,0 +1,53 @@
+﻿<Window x:Class="theRealFinalProjectOOP01.latestCrawledURLS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:theRealFinalProjectOOP01"
+        mc:Ignorable="d"
+        Title="Latest Crawled URLS" 
+        Height="450" 
+        Width="800">
+    <Grid>
+        <Button x:Name="btnChange" 
+                Content="Failed to crawl URLS" 
+                HorizontalAlignment="Left" 
+                Height="26" 
+                Margin="10, 10, 0, 0" 
+                VerticalAlignment="Top" 
+                Width="150" 
+                Click="btnChange_Click"/>
+
+        <Button x:Name="btnRefresh" 
+                Content="Refresh" 
+                HorizontalAlignment="Right" 
+                Height="26" 
+                Margin="0, 10, 10, 0" 
+                VerticalAlignment="Top" 
+                Width="58" 
+                Click="btnRefresh_Click"/>
+
+        <DataGrid x:Name="dtgLatestCrawledURLS" 
+                  HorizontalAlignment="Stretch" 
+                  Height="293" 
+                  Margin="10,50,10,0" 
+                  VerticalAlignment="Top" />
+
+        <Label x:Name="lbCrawlingInfo" 
+               Content="" 
+               HorizontalAlignment="Center" 
+               Height="31" 
+               Margin="0,363,0,0" 
+               VerticalAlignment="Top" 
+               Width="780" 
+               FontSize="11"/>
+        <Button x:Name="BtnAddFailedToCrawlURLs" 
+            Content="ReCrawl failed to craw urls" 
+            HorizontalAlignment="Left" 
+            Height="26" 
+            Margin="187,10,0,0" 
+            VerticalAlignment="Top" 
+            Width="148" Click="BtnAddFailedToCrawlURLs_Click" 
+           />
+    </Grid>
+</Window>
