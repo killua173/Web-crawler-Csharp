@@ -21,20 +21,13 @@ cd Web-crawler-Csharp
 
 ### 2. Database Setup
 
-#### Option 1: Using the SQL Script
-
-1. Open SQL Server Management Studio (SSMS)
-2. Connect to your SQL Server instance
-3. Open the SQL script file located in the repository at `CrawlerWin/SQLQuery1.sql`
-4. Execute the script to create the necessary database and tables
-
-#### Option 2: Restore from Backup (if available)
+#### Option 2: Restore from Backup 
 
 1. Open SQL Server Management Studio (SSMS)
 2. Connect to your SQL Server instance
 3. Right-click on "Databases" in the Object Explorer
 4. Select "Restore Database..."
-5. Choose the appropriate source and restore the database
+5. Choose WebCrawler.bak
 
 ### 3. Configure the Connection String
 
@@ -87,7 +80,7 @@ If you encounter database connection errors:
 
 1. Verify your SQL Server instance name
 2. Check if SQL Server is running
-3. Ensure the "crawler" database exists
+3. Ensure the "WebCrawler" database exists
 4. Confirm your authentication method and credentials
 5. Make sure the SQL Server user has appropriate permissions
 
