@@ -4,11 +4,11 @@ A Windows Forms application written in C# that crawls websites and stores the da
 
 ## Prerequisites
 
-- Microsoft Visual Studio (compatible with the solution format)
-- .NET Framework 4.0 (as indicated by the project files)
-- Microsoft SQL Server (any version supporting T-SQL)
+- Microsoft Visual Studio 
+- .NET Framework 4.0 
+- Microsoft SQL Server 
 - SQL Server Management Studio (SSMS)
-- HtmlAgilityPack (referenced in the project)
+- HtmlAgilityPack 
 
 ## Setup Instructions
 
@@ -21,7 +21,7 @@ cd Web-crawler-Csharp
 
 ### 2. Database Setup
 
-#### Option 2: Restore from Backup 
+#### Restore from Backup 
 
 1. Open SQL Server Management Studio (SSMS)
 2. Connect to your SQL Server instance
